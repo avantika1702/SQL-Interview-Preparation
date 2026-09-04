@@ -54,7 +54,7 @@ CROSS JOIN Departments d;
 
 ----------- Question 6. Display each employee along with their manager using SELF JOIN ---------------
 
-SELECT e.Name AS Employee,
+SELECT e.Name AS Employee, 
        m.Name AS Manager
 FROM Employees e
 JOIN Employees m
